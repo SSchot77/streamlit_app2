@@ -1,0 +1,4 @@
+type_overheid,naam_overheid,boekjaar,documenttype,baten_exploitatie,lasten_exploitatie,baten_financieel,lasten_financieel,uitstaande_schuld,vlottende_middelen,reserves_eigen_vermogen,begrotingssaldo,exploitatieresultaat_marge,schuldquote,liquiditeitsratio,solvabiliteitsratio
+Gemeenschappelijke regeling,GR de Bevelanden,2027,Begroting,250.0,275.0,25.0,0.0,100.0,20.0,150.0,0.0,0.0,0.36363636363636365,0.2,0.6
+Gemeenten,Goes,2026,Begroting,Simon Schot,Nee,,654,0,0,2026-03-08,2026-03-08,Nee,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,sl.schot@zeeland.nl,Zeeland
+Gemeenten,Borsele,2026,Begroting,Simon Schot,Nee,,654,23377,10678,2026-03-08,2026-03-08,Nee,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,sl.schot@zeeland.nl,Zeeland
