@@ -704,6 +704,8 @@ kol_links, kol_rechts = st.columns([3, 1])
 with kol_links:
     st.title("Financieel toezicht decentrale overheid")
 with kol_rechts:
+    if os.path.exists(LOGO_PATH):
+        st.image(LOGO_PATH, width=140)
     st.write(f"Ingelogd als **{gebruiker.get('naam', 'onbekend')}**")
     if st.button("Uitloggen"):
         logout()
@@ -719,26 +721,6 @@ tab_start, tab_invoer, tab_database = st.tabs(
 )
 
 with tab_start:
-    logo_uri = get_logo_data_uri(LOGO_PATH)
-    if logo_uri:
-        st.markdown(
-            f"""
-            <style>
-              .aftnext-floating-logo {{
-                position: fixed;
-                top: 0.75rem;
-                right: 1rem;
-                z-index: 9999;
-                background: rgba(255,255,255,0.0);
-              }}
-            </style>
-            <div class="aftnext-floating-logo">
-              <img src="{logo_uri}" width="280" />
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
     st.subheader(f"Welkom {gebruiker.get('naam', '')}")
 
     kol_zoek, kol_detail = st.columns([1, 3])
